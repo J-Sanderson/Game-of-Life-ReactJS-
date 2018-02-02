@@ -1,0 +1,79 @@
+/*http://paletton.com/#uid=24F0u0kllll35P7cdu1utcERM3Y*/
+html {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+}
+
+a:link, a:active, a:hover, a:visited {
+  color: #FFFFE6;
+  text-decoration: none;
+  border-bottom: 1px dotted #FFFFE6;
+}
+
+body {
+  background: #562A72;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#562A72, #1e0f27);
+  /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#562A72, #1e0f27);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(#562A72, #1e0f27);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#562A72, #1e0f27);
+  /* Standard syntax */
+  color: #D8CBE0;
+  font-family: "Courier New", monospace;
+}
+
+#main {
+  background-color: #0D0015;
+  border-radius: 10px;
+  width: 900px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  text-align: center;
+}
+#main #grid #gridCanvas {
+  border: 2px solid #562A72;
+  display: block;
+  margin: auto;
+}
+#main #controls {
+  margin-bottom: 15px;
+}
+#main #controls button {
+  background: #D8CBE0;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#D8CBE0, #8A67A0);
+  /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#D8CBE0, #8A67A0);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(#D8CBE0, #8A67A0);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#D8CBE0, #8A67A0);
+  /* Standard syntax */
+  border: 0px;
+  padding: 5px;
+  margin: 0px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#main #controls button:active, #main #controls button:focus {
+  background: #8A67A0;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#8A67A0, #D8CBE0);
+  /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#8A67A0, #D8CBE0);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(#8A67A0, #D8CBE0);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#8A67A0, #D8CBE0);
+  /* Standard syntax */
+  outline: none;
+}
+#main #controls h1, #main #controls h2, #main #controls h3 {
+  margin: 5px;
+}
